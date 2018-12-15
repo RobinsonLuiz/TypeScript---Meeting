@@ -10,7 +10,7 @@ let objeto: object = {
     "oi": 2
 };
 
-let html: HTMLInputElement;
+// let html: HTMLInputElement;
 // html.querySelector('teste'); atribuido para receber os parametros do front
 
 //type definitions
@@ -22,6 +22,6 @@ function criarNome(name: nomeOrnomeArray) {
 }
 
 let mensagem = `Olá, ${ criarNome(["Robinson", "Luiz"]) }`;
-alert(mensagem);
+// alert(mensagem);
 
 
