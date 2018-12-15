@@ -111,6 +111,6 @@ class ComputadorDAO implements IDAO<Computador> {
 }
 
 let computadorDAO = new ComputadorDAO();
-alert(computadorDAO.delete("robinsontads@outlook.com"));
-alert(computadorDAO.deleteId(2));
-computadorDAO.select("apple").forEach(computador => alert(computador));
+// alert(computadorDAO.delete("robinsontads@outlook.com"));
+// alert(computadorDAO.deleteId(2));
+// computadorDAO.select("apple").forEach(computador => alert(computador));

@@ -6,4 +6,4 @@
 
 ***caso não tenha nodemon instalado troque no package.json***
 
-***o valor de script/start para tsc && node ./build/server.js***
+***o valor de script/start para tsc && node ./build/server/server.js***
