@@ -10,8 +10,8 @@
         ]
     },
     "include": [
-        "mail/**/*.ts",
-        "mail/*.ts",
+        "./**/*.ts",
+        "./*.ts",
     ],
     "exclude": [
         "node_modules"
