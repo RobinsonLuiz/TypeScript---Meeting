@@ -1,3 +1,8 @@
+
+
+
+
+
 interface IDAO<TYPE extends AbstractModel> {
 
     persiste(objeto: TYPE): any;
@@ -10,6 +15,7 @@ interface IDAO<TYPE extends AbstractModel> {
 class AbstractModel {
     
     private _id: any;
+
 
     constructor() {}
     

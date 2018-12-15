@@ -6,15 +6,12 @@ numero += 5; //let pode ser reatribuido, mas não pode ser instanciado novamente
 
 let booleano: boolean = false;
 let qualquer: any = '312312' + 2 + true;
-let objeto: any = {
+let objeto: object = {
     "oi": 2
 };
 
 let html: HTMLInputElement;
 // html.querySelector('teste'); atribuido para receber os parametros do front
-let json; JSON; //JSON!?
-json = 'oi';
-alert(objeto['oi']);
 
 //type definitions
 type nomeOrnomeArray = string | Array<string>;

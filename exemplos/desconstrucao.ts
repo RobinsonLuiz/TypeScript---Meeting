@@ -1,7 +1,11 @@
 //desconstrução de vetores
 let meuArray = [1, 2, 3, 4];
 
+
+
+// let primeiro = meuArray[0];
 let [primeiro, segundo] = meuArray;
+// let [, , , ultimo] = meuArray;
 let [outroPrimeiro, , , ultimo] = meuArray;
 let [ultimoPrimeiro, ...outroArray] = meuArray;
 
@@ -23,7 +27,7 @@ let meuObjeto: any = {
     cargo: 'Dev'
 };
 
-let { nome, id } = meuObjeto;
+let { id } = meuObjeto;
 let { idt } = meuObjeto; //undefined
 
 alert(`Primeira Desconstrução - ${nome} e id ${id}`);

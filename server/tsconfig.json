@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "build",
+        "types": [
+            "node"
+        ],
+        "lib": [
+            "es2015"
+        ]
+    },
+    "include": [
+        "mail/**/*.ts",
+        "mail/*.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave" : true,
+    "buildOnSave": true
+}
+
+
+// "include": diretorio que o typescript usara para pegar os dados.
+// "outDir": resultado da compilação do typescript, quando é convertido pelo javascript.
+// "target": linguagem que está sendo usada.
+// "compileOnSave": somente é compilado quando o projeto está correto.
+// "buildOnSave": automaticamente já faz o build para js caso o projeto esteja correto.
+// "noImplicitAny": obriga o desenvolvedor a colocar any.
+// "removeComments": remove os comentários na hora da compilação para javascript, evitando o resultado ir para o JS
+//"preserveConstEnums": true,
+//"exclude": [
+//    "node_modules",
+//    "**/*.spec.ts"
+//]
+//"typeRoots" : ["./typings"]
+//"strictNullChecks": true
